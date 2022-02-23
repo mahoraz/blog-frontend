@@ -20,7 +20,7 @@ const CardContrainer = styled.div<CardProps>`
         color: #303336;
     }
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
 `;
 
 export default function Card(props: CardProps){
